@@ -4,5 +4,5 @@ Simple page
 
 ## Run application
 
-npm i 
+npm i;
 npm start
