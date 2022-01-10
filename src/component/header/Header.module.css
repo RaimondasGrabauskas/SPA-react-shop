@@ -1,0 +1,20 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 18px;
+}
+
+.header span {
+  font-weight: 400;
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 14px;
+  margin: 0px 10px;
+}
+
+.header span:last-child {
+  margin: 0;
+}

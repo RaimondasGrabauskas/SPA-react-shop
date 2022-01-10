@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+.main-container {
+  padding: 40px 16px 50px 16px;
+  background-color: #f8f1eb;
+  position: relative;
+}
+
+.main-container h5 {
+  font-family: 'Sofia Pro', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}

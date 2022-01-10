@@ -1,0 +1,112 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.customer-info__title h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  padding: 20px 0px 4px 0px;
+}
+
+.customer-info__title h6 {
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: #bdbdbd;
+  margin: 0;
+  padding: 4px 0px 16px 0px;
+}
+
+.custumer-info input {
+  width: 91%;
+  padding: 15px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+}
+
+.custumer-info select {
+  width: 100%;
+  padding: 15px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  color: #bdbdbd;
+}
+.select__wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.custumer-info label {
+  font-family: 'Work Sans', sans-serif;
+  color: #828282;
+  font-size: 12px;
+  position: absolute;
+  left: 17px;
+  top: 5px;
+}
+
+.form div:first-child {
+  margin-bottom: 16px;
+}
+
+.shipping-input__wrapper {
+  margin-bottom: 20px;
+}
+
+.payment-method {
+  padding: 0px 15px;
+}
+
+.payment-method h5 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.payment-method__grid__container {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'input1 input1'
+    'input2 input3';
+  gap: 5px 20px;
+}
+
+.input1 {
+  grid-area: input1;
+  width: 100%;
+}
+.input2 {
+  grid-area: input2;
+  width: 89%;
+}
+.input3 {
+  grid-area: input3;
+  width: 89%;
+}
+
+.form-button {
+  width: 100%;
+  padding: 15px 12px;
+  border: none;
+  color: white;
+  background-color: #009900;
+  border-radius: 3px;
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+.secure-icons {
+  width: 50px;
+  height: 50px;
+}
+
+.secure-icons img {
+  width: 100%;
+  height: 100%;
+}
+
+.secure-icons__container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}

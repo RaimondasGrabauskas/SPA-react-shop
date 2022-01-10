@@ -1,0 +1,30 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+.cart {
+  padding: 0px 15px;
+  font-family: 'Sofia Pro', sans-serif;
+  box-shadow: 5px 5px 5px lightgray;
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  opacity: 1;
+  width: 93%;
+}
+
+.shop-cart__total__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.shop-cart__total__wrapper div:first-child span {
+  color: #828282;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.shop-cart__total__wrapper div:nth-child(2) span:first-child {
+  margin-right: 15px;
+  font-size: 12px;
+}

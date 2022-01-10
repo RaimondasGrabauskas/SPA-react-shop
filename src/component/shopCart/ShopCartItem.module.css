@@ -1,0 +1,38 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 15px 0px;
+}
+
+.cart-item img {
+  width: 52px;
+  height: 52px;
+  margin-right: 20px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item span:nth-child(2) {
+  font-weight: 50;
+  margin-left: 5px;
+}
+
+.hide {
+  font-size: 10px;
+  font-weight: 60;
+  color: red;
+  display: none;
+}
+
+.hide span {
+  cursor: pointer;
+}
+
+.cart-item:hover .hide {
+  display: block;
+}
